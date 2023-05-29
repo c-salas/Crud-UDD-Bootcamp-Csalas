@@ -22,6 +22,11 @@ a:hover {
   display: none;
 }
 
+header {
+  padding: 5%;
+
+}
+
 
 body {
   font-family: 'Rubik', sans-serif;
