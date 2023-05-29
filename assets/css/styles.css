@@ -300,5 +300,10 @@ footer a{
     padding: 0%;
   }
 
+    footer {
+   text-align: center;
+   padding-left: 50px;
+  }
+  
 
 }
