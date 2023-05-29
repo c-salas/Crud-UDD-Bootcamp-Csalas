@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cat Coffee Crud</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <li class="logo">
+      <a href="#" class="nav-logo">
+        <img src="assets/images/cat-silhouette.svg"  alt="">
+        <h1>Proyecto Crud </h1>
+      </a>
+      <a href="#"></a>
+    </li>
+
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a href="https://c-salas.github.io/landing-UDD-Bootcamp-Csalas/" class="nav-link">
+          <span class="link-text">Proyecto Landing</span>
+          <img src="assets/images/avance-rapido.png" width="50" height="50" alt="">
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+  
+  <section>
+      
+    <h2>Inventario de Productos</h2>
+      <div class="formulario"></div>
+       <form id="form">
+          <input required id="title" type="text" placeholder="Nombre">
+          <input required id="desc" type="text" placeholder="Descripcion">
+          <input required id="cant" type="number" placeholder="Cantidad">
+          <button id="boton" type="submit">Agregar</button>
+          <button id="actualizar" class="hide" type="submit">Actualizar</button>
+      </form>
+
+    <table>
+        <tr>
+          <th class="first">Nombre</th>
+          <th>Descripcion</th>
+          <th class="cent">Cantidad</th>
+          <th class="last">Acciones</th>
+        </tr>
+      <tbody id="cuerpoTabla">
+
+      </tbody>
+    </table>
+  
+  <script src="assets\json\app.js"></script>
+
+  </section>
+
+
+
+
+
+	<footer>
+		<div class="footer-container">
+				<div class="footer-column">
+						<h4>NOSOTROS</h4>
+						<a href="#">Acerca de</a>
+						<a href="#">Trabaja con nosotros</a>
+						<a href="#">Voluntarios</a>
+				</div>
+				<div class="footer-column">
+						<h4>COMUNIDAD</h4>
+						<a href="#">Clientes</a>
+						<a href="#">Publicidad</a>
+						<a href="#">Proveedores</a>
+				</div>
+				<div class="footer-column">
+						<h4>ENLACES ÚTILES</h4>
+						<a href="#">Ayuda</a>
+						<a href="#">Refugio</a>
+				</div>
+				<div class="footer-column-social-icons">
+					<a class="sicon" href="#"><img src="assets/images/instagram.svg" height="30px" alt=""></a>
+					<a class="sicon" href="#"><img src="assets/images/twitter.svg" height="30px" alt=""></a>
+					<a class="sicon" href="#"><img src="assets/images/facebook.svg" height="30px" alt=""></a>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p class="#">© 2023 pagina ficticia hecha solo con propositos educativos </p>
+
+		</div>
+</footer>
+</body>
+</html>
