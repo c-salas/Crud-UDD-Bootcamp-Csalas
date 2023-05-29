@@ -114,6 +114,9 @@ h1:hover {
 }
 
 
+/*body*/
+
+
 header {
   text-align: center;
   padding: 2%;
@@ -146,6 +149,7 @@ form {
   margin: 10px;
   line-height: normal;
   padding-bottom: 5px;
+  text-decoration: none;
   
 }
 
@@ -230,7 +234,7 @@ footer {
   flex-direction: row;
   color: var(--bg-secondary);
   margin-bottom: 2rem;
-
+  text-decoration: none;
 }
 
 footer a{
@@ -287,6 +291,14 @@ footer a{
 
 @media screen and (max-width:600px) {
 
+
+  form {
+    display:grid;
+  }
+
+  table {
+    padding: 0%;
+  }
 
 
 }
