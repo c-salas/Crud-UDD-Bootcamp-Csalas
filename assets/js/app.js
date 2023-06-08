@@ -19,10 +19,14 @@ const actualizar = document.getElementById('actualizar')
 traerLS()
 listar()
 
+
 let editMode = false;
 let idEditing = null;
 
+
 boton.addEventListener('click', crear)
+
+
 
 function crear (e) {
   e.preventDefault()
@@ -35,6 +39,12 @@ function crear (e) {
     desc: desc.value,
     cant: cant.value,
   }
+
+  if(title.value === '' || desc.value === '' || cant.value === '' ){
+     Swal.fire('You shall not pass... <br> Rellena todos los campos')
+     return
+    }
+
 
   tareas.push(tarea)
   listar()
@@ -81,6 +91,9 @@ function listar () {
   })
 
 }
+
+  
+
 
 function resetForm () {
   form.reset()
@@ -141,5 +154,14 @@ function edit (e) {
   boton.classList.remove('hide');
   actualizar.classList.add('hide');
 }
+
+
+
+
+
+
+
+
+
 
 actualizar.addEventListener('click', edit)
