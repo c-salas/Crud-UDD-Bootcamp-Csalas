@@ -1,4 +1,3 @@
-
 let tareas = []
 
 const title = document.getElementById('title')
