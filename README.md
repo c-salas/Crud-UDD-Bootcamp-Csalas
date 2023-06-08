@@ -7,3 +7,5 @@ Proyecto se realiza a modo de continuacion de proyecto Landing, utilizando herra
 
 
 https://c-salas.github.io/Crud-UDD-Bootcamp-Csalas/
+https://raw.githubusercontent.com/c-salas/Crud-UDD-Bootcamp-Csalas/main/crud.png
+
